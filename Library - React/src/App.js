@@ -56,13 +56,13 @@ function App() {
     return counter;
   }
 
-  function numberOfItems() {
-    let counter = 0;
-    cart.forEach((item) => {
-      counter += +item.quantity;
-    });
-    return counter;
-  }
+  // function numberOfItems() {
+  //   let counter = 0;
+  //   cart.forEach((item) => {
+  //     counter += +item.quantity;
+  //   });
+  //   return counter;
+  // }
 
   function calcPrices() {
     let total = 0;
